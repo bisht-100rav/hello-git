@@ -1,0 +1,43 @@
+******************************************************************************************
+                        Basic command lines for using Git 
+******************************************************************************************
+
+
+1. git init                                         { Creates a new repository }
+
+
+2. git config --global user.name "username"         { Configures the name of the user       
+   git config --global user.email "email of user"     and email to be used with commits }
+
+
+3. git status                                       { Lists the files to be changed and to be added } 
+ 
+
+4. git commit -m <commit message>                   { Commit any file you've added with git add 
+                                                      and also commmits changes been made }
+
+
+5. git add <file name>                              { Add one or more files to staging }
+    
+
+6. git push -u origin master                        { Send changes to the master branch of remote repository }
+
+ 
+7. git clone /path/to/repository                    { Create a working copy of a local repository} 
+ 
+
+8. git remote add origin <server>                   { Pushing the server to be connected to local  
+                                                      repository if not connected }
+
+
+9. git tag 1.0.0 <commitID>                         { Can be used for tagging to mark a  
+                                                      significant changeset such as release }
+
+
+10. git push --tags origin                          { Push all the tags to remote repository }
+
+
+11. git checkout -- <filename>                      { For replacing changes in working tree if messed up }
+
+                                                   
+12. git pull                                        { Fetch and erge changes on the remote server to you working directory }
